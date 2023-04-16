@@ -1,0 +1,28 @@
+{
+  "name": "pdfconcat",
+  "version": "1.0.0",
+  "description": "A command line program to merge multiple pdfs together",
+  "bin": {
+    "pdfconcat": "./index.js"
+  },
+  "main": "index.js",
+  "keywords": [
+    "pdf",
+    "merge",
+    "command-line"
+  ],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node index.js -i preface.pdf chapter1.pdf -o mastering-javascript.pdf"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "commander": "^10.0.1",
+    "pdf-lib": "^1.17.1"
+  }
+}
