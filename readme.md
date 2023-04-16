@@ -1,13 +1,13 @@
-# pdfconcat
+# pdfmix
 
-pdfconcat is a command-line utility that allows you to combine multiple PDF files into a single output PDF file.
+pdfmix is a command-line utility that allows you to combine multiple PDF files into a single output PDF file.
 
 ## Installation
 
-Install pdfconcat using npm:
+Install pdfmix using npm:
 
 ```bash
-npm install -g pdfconcat
+npm install -g pdfmix
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install -g pdfconcat
 To combine multiple PDF files into a single output PDF file, simply run the following command:
 
 ```bash
-pdfconcat -i input1.pdf input2.pdf input3.pdf -o output.pdf
+pdfmix -i input1.pdf input2.pdf input3.pdf -o output.pdf
 ```
 
 ## Options
@@ -30,13 +30,13 @@ pdfconcat -i input1.pdf input2.pdf input3.pdf -o output.pdf
 Combine three PDF files into a single output PDF file:
 
 ```bash
-pdfconcat -i file1.pdf file2.pdf file3.pdf -o output.pdf
+pdfmix -i file1.pdf file2.pdf file3.pdf -o output.pdf
 ```
 
 Combine two PDF files into a single output PDF file:
 
 ```bash
-pdfconcat -i file1.pdf file2.pdf -o output.pdf
+pdfmix -i file1.pdf file2.pdf -o output.pdf
 ```
 
 ## Show your support

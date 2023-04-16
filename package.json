@@ -1,9 +1,9 @@
 {
-  "name": "pdfconcat",
+  "name": "pdfmix",
   "version": "1.0.0",
   "description": "A command line program to merge multiple pdfs together",
   "bin": {
-    "pdfconcat": "./index.js"
+    "pdfmix": "./index.js"
   },
   "main": "index.js",
   "keywords": [
