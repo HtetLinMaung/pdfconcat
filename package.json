@@ -1,6 +1,6 @@
 {
   "name": "pdfmix",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A command line program to mix multiple pdfs together",
   "bin": {
     "pdfmix": "./index.js"

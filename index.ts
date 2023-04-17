@@ -31,5 +31,10 @@ program
   }
 
   const mergedPdfBytes = await combinedPdf.save();
-  fs.writeFileSync(path.join(process.cwd(), outputFile), mergedPdfBytes);
+  fs.writeFileSync(
+    path.isAbsolute(outputFile)
+      ? outputFile
+      : path.join(process.cwd(), outputFile),
+    mergedPdfBytes
+  );
 })();
